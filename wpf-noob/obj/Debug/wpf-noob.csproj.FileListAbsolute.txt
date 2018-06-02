@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\wpf-noob\wpf-noob\bin\Debug\wpf-noob.exe.config
+C:\Users\User\Desktop\wpf-noob\wpf-noob\bin\Debug\wpf-noob.exe
+C:\Users\User\Desktop\wpf-noob\wpf-noob\bin\Debug\wpf-noob.pdb
+C:\Users\User\Desktop\wpf-noob\wpf-noob\obj\Debug\wpf-noob.csprojAssemblyReference.cache
+C:\Users\User\Desktop\wpf-noob\wpf-noob\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\wpf-noob\wpf-noob\obj\Debug\App.g.cs
+C:\Users\User\Desktop\wpf-noob\wpf-noob\obj\Debug\wpf-noob_MarkupCompile.cache
+C:\Users\User\Desktop\wpf-noob\wpf-noob\obj\Debug\wpf-noob_MarkupCompile.lref
+C:\Users\User\Desktop\wpf-noob\wpf-noob\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\wpf-noob\wpf-noob\obj\Debug\wpf-noob.g.resources
+C:\Users\User\Desktop\wpf-noob\wpf-noob\obj\Debug\wpf_noob.Properties.Resources.resources
+C:\Users\User\Desktop\wpf-noob\wpf-noob\obj\Debug\wpf-noob.csproj.GenerateResource.cache
+C:\Users\User\Desktop\wpf-noob\wpf-noob\obj\Debug\wpf-noob.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\wpf-noob\wpf-noob\obj\Debug\wpf-noob.exe
+C:\Users\User\Desktop\wpf-noob\wpf-noob\obj\Debug\wpf-noob.pdb

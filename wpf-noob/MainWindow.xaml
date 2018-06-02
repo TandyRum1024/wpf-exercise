@@ -5,8 +5,30 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:wpf_noob"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="계산기 빌런" Height="600" Width="450">
+    <DockPanel Width="Auto">
+        <TextBox x:Name="textBox"
+                 DockPanel.Dock="Top"
+                 FontSize="45"
+                 TextAlignment="Right"
+                 Margin="15. 10. 15. -5"
+                 IsReadOnly="True"
+                 Text="계샌기 2.0" />
+
+        <Grid Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+        </Grid>
+    </DockPanel>
 </Window>

@@ -15,6 +15,8 @@
                  IsReadOnly="True"
                  Text="계샌기 2.0" />
 
+        
+        
         <Grid Margin="10">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition />
@@ -28,7 +30,26 @@
                 <RowDefinition />
                 <RowDefinition />
                 <RowDefinition />
+                <RowDefinition />
             </Grid.RowDefinitions>
+            
+            <Button x:Name="buttonClear" Grid.Row="0" Grid.Column="0" Margin="5" Content="Clear" FontSize="20" Click="buttonClear_Click" />
+            <Button x:Name="buttonNo7" Grid.Row="1" Grid.Column="0" Margin="5" FontSize="20" Click="buttonNo7_Click">7</Button>
+            <Button x:Name="buttonNo8" Grid.Row="1" Grid.Column="1" Margin="5" FontSize="20" Click="buttonNo8_Click">8</Button>
+            <Button x:Name="buttonNo9" Grid.Row="1" Grid.Column="2" Margin="5" FontSize="20" Click="buttonNo9_Click">9</Button>
+            <Button x:Name="buttonNo4" Grid.Row="2" Grid.Column="0" Margin="5" FontSize="20" Click="buttonNo4_Click">4</Button>
+            <Button x:Name="buttonNo5" Grid.Row="2" Grid.Column="1" Margin="5" FontSize="20" Click="buttonNo5_Click">5</Button>
+            <Button x:Name="buttonNo6" Grid.Row="2" Grid.Column="2" Margin="5" FontSize="20" Click="buttonNo6_Click">6</Button>
+            <Button x:Name="buttonNo1" Grid.Row="3" Grid.Column="0" Margin="5" FontSize="20" Click="buttonNo1_Click">1</Button>
+            <Button x:Name="buttonNo2" Grid.Row="3" Grid.Column="1" Margin="5" FontSize="20" Click="buttonNo2_Click">2</Button>
+            <Button x:Name="buttonNo3" Grid.Row="3" Grid.Column="2" Margin="5" FontSize="20" Click="buttonNo3_Click">3</Button>
+            <Button x:Name="buttonNo0" Grid.Row="4" Grid.ColumnSpan="2" Grid.Column="0" Margin="5" FontSize="20" Click="buttonNo0_Click">0</Button>
+            <Button x:Name="buttonDecimal" Grid.Row="4" Grid.Column="2" Margin="5" FontSize="30" Click="buttonDecimal_Click">.</Button>
+            <Button x:Name="buttonDivide" Grid.Row="0" Grid.Column="3" Margin="5" Content="/" FontSize="20" Click="buttonDivide_Click"/>
+            <Button x:Name="buttonMultiply" Grid.Row="1" Grid.Column="3" Margin="5" Content="X" FontSize="20" Click="buttonMultiply_Click"/>
+            <Button x:Name="buttonPlus" Grid.Row="2" Grid.Column="3" Margin="5" Content="+" FontSize="20" Click="buttonPlus_Click"/>
+            <Button x:Name="buttonMinus" Grid.Row="3" Grid.Column="3" Margin="5" Content="-" FontSize="20" Click="buttonMinus_Click"/>
+            <Button x:Name="buttonResult" Grid.Row="4" Grid.Column="3" Margin="5" Content="=" FontSize="20" Click="buttonResult_Click"/>
         </Grid>
     </DockPanel>
 </Window>
